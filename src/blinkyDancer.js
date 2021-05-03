@@ -14,6 +14,6 @@ var makeBlinkyDancer = function(top, left, timeBetweenSteps) {
     // other effects you can use on a jQuery-wrapped html tag.
     blinkyDancer.$node.toggle();
   };
-    // test
+
   return blinkyDancer;
 };
