@@ -14,9 +14,11 @@ BlinkyDancer.prototype.step = function() {
   this.left = $('body').width() * Math.random();
   this.setPosition(this.top, this.left);
 
-  if (this.$node.css('border') === '10px solid rgb(255, 255, 0)' && this.$node.css('display') === 'block') {
-    this.$node.css('border', '10px solid blue');
-  } else if (this.$node.css('display') === 'block') {
-    this.$node.css('border', '10px solid rgb(255, 255, 0)');
-  }
+
+  // if (this.$node.css('border') === '10px solid rgb(255, 255, 0)' && this.$node.css('display') === 'block') {
+  //   this.$node.css('border', '10px solid blue');
+  // } else if (this.$node.css('display') === 'block') {
+  //   this.$node.css('border', '10px solid rgb(255, 255, 0)');
+  // }
 };
+
