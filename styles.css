@@ -2,13 +2,14 @@ body, html{
   height:100%;
 }
 body{
-  /* background-image: url('/img/PoshHotHeron-size_restricted.gif'); */
+  /* background-image: url('/img/dance.gif'); */
   margin: 0px;
   /* background-color:#444; */
   font-size: 18px;
 }
 .bg{
-  background-image: url("/img/PoshHotHeron-size_restricted.gif");
+  background-image: url('/img/dance.gif');
+
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -30,7 +31,6 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
-  border:10px solid red;
   border-radius:30px;
   position:absolute;
 }

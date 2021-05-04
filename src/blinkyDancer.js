@@ -1,6 +1,6 @@
 var BlinkyDancer = function(top, left, timeBetweenSteps) {
   Dancer.call(this, top, left, timeBetweenSteps);
-
+  this.$node = $('<img src = "img/blinky.gif" class="dancer" width="200" height="200"></img>');
 };
 
 BlinkyDancer.prototype = Object.create(Dancer.prototype);
@@ -15,10 +15,10 @@ BlinkyDancer.prototype.step = function() {
   this.setPosition(this.top, this.left);
 
 
-  // if (this.$node.css('border') === '10px solid rgb(255, 255, 0)' && this.$node.css('display') === 'block') {
-  //   this.$node.css('border', '10px solid blue');
-  // } else if (this.$node.css('display') === 'block') {
-  //   this.$node.css('border', '10px solid rgb(255, 255, 0)');
-  // }
+  if (this.$node.css('border') === '10px solid rgb(255, 255, 0)' && this.$node.css('display') === 'block') {
+    this.$node.css('border', '10px solid blue');
+  } else if (this.$node.css('display') === 'block') {
+    this.$node.css('border', '10px solid rgb(255, 255, 0)');
+  }
 };
 
